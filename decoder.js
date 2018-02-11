@@ -17,4 +17,4 @@ function decoder(cipher, key) {
   console.log(result);
   return result;
 }
-decoder('hmiemeuvpa', 'paint');
+decoder('hmiemeuvpa', 'paint'); // smartpunch

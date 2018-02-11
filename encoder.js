@@ -17,4 +17,4 @@ function encoder(word, key) {
   console.log(result);
   return result;
 }
-encoder('smartpunch', 'paint');
+encoder('smartpunch', 'paint'); //hmiemeuvpa
