@@ -1,2 +1,2 @@
-# Vigen-re-cipher
+# Vigenere-cipher
 encoder and decoder
