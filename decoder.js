@@ -5,8 +5,8 @@ const ciphermatrix = vigenerSquare();
 const wordAndKey = require('./wordandkey.js');
 
 function decoder(cipher, key) {
-  const cipherArr = cipher.split('');
-  const keyArr = key.split('');
+  const cipherArr = cipher.toLowerCase().split('');
+  const keyArr = key.toLowerCase().split('');
   const arr = wordAndKey(cipherArr, keyArr);
   const uncipher = [];
   for (let i = 0; i < cipherArr.length; i++) {
